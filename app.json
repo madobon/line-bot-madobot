@@ -1,0 +1,23 @@
+{
+  "name": "LINE BOT - madobot",
+  "description": "This is madobot",
+  "repository": "https://github.com/madobon/line-bot-madobot",
+  "keywords": ["line", "bot"],
+  "env": {
+    "LINE_CHANNEL_ID": {
+      "description": "Channel ID",
+      "required": true
+    },
+    "LINE_CHANNEL_SECRET": {
+      "description": "Channel secret",
+      "required": true
+    },
+    "LINE_CHANNEL_MID": {
+      "description": "Channel MID",
+      "required": true
+    }
+  },
+  "addons": [
+    "fixie:tricycle"
+  ]
+}
