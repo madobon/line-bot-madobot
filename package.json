@@ -1,0 +1,23 @@
+{
+  "name": "line-bot-madobot",
+  "version": "1.0.0",
+  "description": "line bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://madobon@github.com/madobon/line-bot-madobot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madobon/line-bot-madobot/issues"
+  },
+  "homepage": "https://github.com/madobon/line-bot-madobot#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
