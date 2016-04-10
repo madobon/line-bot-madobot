@@ -19,7 +19,7 @@ app.post('/linebot/callback', function (req, res) {
 
   results.forEach(function(result, index, array) {
     var param = {
-      to: result.content.from,
+      to: [result.content.from],
       toChannel: 1383378250, // Fixed
       eventType: '138311608800106203', // Fixed
       content: result.content
