@@ -187,6 +187,8 @@ app.post('/linebot/callback', function (req, res) {
   res.send('OK');
 });
 
+var PORT = process.env.PORT || 8080;
+
 app.listen(process.env.PORT, function () {
   console.log('Express server started on port %s', process.env.PORT);
 });

@@ -9,11 +9,11 @@
       "required": true
     },
     "LINE_CHANNEL_SECRET": {
-      "description": "Channel secret",
+      "description": "Channel Secret",
       "required": true
     },
-    "LINE_CHANNEL_MID": {
-      "description": "Channel MID",
+    "LINE_MID": {
+      "description": "MID",
       "required": true
     }
   },
