@@ -45,7 +45,7 @@ app.post('/linebot/callback', function (req, res) {
       }
     })
   });
-  res.send('Hello World!');
+  res.send('OK');
 });
 
 app.listen(process.env.PORT, function () {
