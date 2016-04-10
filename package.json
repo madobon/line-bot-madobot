@@ -20,6 +20,7 @@
   "homepage": "https://github.com/madobon/line-bot-madobot#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "cheerio-httpcli": "^0.6.7",
     "express": "^4.13.4",
     "request": "^2.70.0"
   }
