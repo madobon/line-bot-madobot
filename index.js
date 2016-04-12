@@ -1,3 +1,6 @@
+var cfenv = require( 'cfenv' );
+var appEnv = cfenv.getAppEnv();
+
 // http client
 var request = require('request');
 
@@ -187,9 +190,8 @@ app.post('/linebot/callback', function (req, res) {
   res.send('OK');
 });
 
-var PORT = process.env.VCAP_APP_PORT || 8080;
-var HOST = process.env.VCAP_APP_HOST || 'localhost';
+var PORT = appEnv.port || 8080;
 
-app.listen(PORT, HOST, function () {
+app.listen(PORT, function () {
   console.log('Express server started on port %s', PORT);
 });
