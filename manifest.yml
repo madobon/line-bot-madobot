@@ -1,0 +1,9 @@
+---
+applications:
+- name:    line-bot-madobot
+  host:    line-bot-madobot
+  memory:  128M
+env:
+  LINE_CHANNEL_ID: XXXXXXXXXXXX
+  LINE_CHANNEL_SECRET: XXXXXXXXXXXX
+  LINE_MID: XXXXXXXXXXXX
