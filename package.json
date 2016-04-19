@@ -19,14 +19,14 @@
   },
   "homepage": "https://github.com/madobon/line-bot-madobot#readme",
   "dependencies": {
+    "commander": "^2.6.0",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1",
     "body-parser": "^1.15.0",
     "cfenv": "^1.0.3",
     "cheerio-httpcli": "^0.6.7",
     "express": "^4.13.4",
     "request": "^2.70.0",
-    "commander": "^2.6.0",
-    "http-post": "^0.1.1",
-    "http-proxy": "^1.8.1",
     "cf-deployment-tracker-client": "*"
   }
 }
